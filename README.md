@@ -12,9 +12,9 @@ If issues arise, do not hestitate to open an [Issue] or a [Pull Request][PR] if 
 
 ## Snippets
 
-| # | Description
-| --- | --- |
-| 1 | Delete all chats from your list that have been migrated to a supergroup.
+| # | Snippet | Description
+| --- | --- | --- |
+| 1 | [Delete Migrated](delete_migrated.py) | Delete all chats from your list that have been migrated to a supergroup.
 
 ## License
 
