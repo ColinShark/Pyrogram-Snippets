@@ -1,4 +1,4 @@
-from pyrogram import Client, errors
+from pyrogram import Client
 from pyrogram.api import functions, types
 
 app = Client("my_account")

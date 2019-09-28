@@ -4,7 +4,7 @@ This is an assortment of snippets, ready to use with [Pyrogram]
 
 ## About
 
-Every snippet assumes you have set up a `config.ini` and are already logged in with a session called
+Every snippet assumes you have set up a [`config.ini`](SETUP) and are already logged in with a session called
 "my_account" (and thus have a `my_account.session` file present).
 
 All scripts should work as is.
@@ -12,9 +12,7 @@ If issues arise, do not hestitate to open an [Issue] or a [Pull Request][PR] if 
 
 ## Snippets
 
-| # | Snippet | Description
-| --- | --- | --- |
-| 1 | [Delete Migrated](delete_migrated.py) | Delete all chats from your list that have been migrated to a supergroup.
+The snippets are in the [Snippets](Snippets) directory.
 
 ## License
 
@@ -25,4 +23,5 @@ so I gave this repo the [WTFPL]. Enjoy.
 [Lounge]: https://t.me/pyrogramlounge
 [Issue]: https://github.com/ColinTheShark/Pyrogram-Snippets/issues/new
 [PR]: https://github.com/ColinTheShark/Pyrogram-Snippets/compare
+[SETUP]: https://docs.pyrogram.org/intro/setup
 [WTFPL]: LICENSE
