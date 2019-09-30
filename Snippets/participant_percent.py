@@ -12,4 +12,4 @@ with app:
         if msg.from_user and not msg.from_user.is_bot:
             people[msg.from_user.id] = msg.from_user.first_name
 
-print(len(people)/total)
+print(len(people) / total)

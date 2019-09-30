@@ -6,6 +6,7 @@ limit = 2000
 # Limit is for how many messages you want to look through
 app = Client("my_account")
 
+
 class custom(dict):
     def __missing__(self, key):
         return 0

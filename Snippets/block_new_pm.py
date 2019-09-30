@@ -15,3 +15,7 @@ def block_new_pm(app, msg):
     app.block_user(whomst)
     app.send(functions.messages.ReportSpam(peer=whomst_peer))
     app.send(functions.messages.DeleteHistory(peer=whomst_peer, max_id=0))
+
+
+app.idle()
+app.stop()
