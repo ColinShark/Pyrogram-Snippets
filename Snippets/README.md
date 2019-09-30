@@ -10,5 +10,6 @@ Here is a list of all Snippets for better overview and a clearer top-level Readm
 | 4 | [Block New PMs](block_new_pm.py) | Block new private messages from coming through. Instantly block and report the offender.
 | 5 | [Participant%](participant_percent.py) | Get the % of people who have participated in the last 5000 messages.<sup>1</sup>
 | 6 | [Word Count](word_count.py) | Get a list of the 50 most used words in the chat.<sup>1</sup>
+| 7 | [Sticker Sets](all_sets.py) | Get a count of all saved stickers across all saved packs.
 
 <sup>1: Iterating through a lot of messages might take some time.</sup>
