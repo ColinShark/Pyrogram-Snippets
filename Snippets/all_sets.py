@@ -8,4 +8,5 @@ with app:
     count = sum([x.count for x in all_sets])
     print(
         f"{count} stickers across {len(all_sets)} sets.\n"
-        f"Average of {count / len(all_sets):.2f} stickers per pack.")
+        f"Average of {count / len(all_sets):.2f} stickers per pack."
+    )
