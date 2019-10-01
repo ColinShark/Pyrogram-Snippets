@@ -16,7 +16,7 @@ Otherwise I'm available at [Pyrogram's Lounge][Lounge] (Ask for "Colin").
 
 ## Snippets
 
-The snippets are in the [Snippets](Snippets) directory.
+The snippets are in the [Snippets](Snippets#snippets) directory.
 
 ## License
 
