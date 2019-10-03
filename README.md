@@ -7,7 +7,7 @@ This is an assortment of snippets, ready to use with [Pyrogram]
 
 ## About
 
-Every snippet assumes you have set up a [`config.ini`](SETUP) and are already logged in with a session called
+Every snippet assumes you have set up a [`config.ini`][SETUP] and are already logged in with a session called
 "my_account" (and thus have a `my_account.session` file present).
 
 All scripts should work as is.
