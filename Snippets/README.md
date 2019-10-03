@@ -15,6 +15,7 @@ Here is a list of all Snippets for better overview and a clearer top-level Readm
 | 9 | [Left Channels](left_channels.py) | Retrieve a list of all Channels<sup>2</sup> you've created and left.
 | 10 | [Thanos](thanos.py) | You already know <small>(mutes half the chat for 24 hours)</small>
 | 11 | [Deleted Account](delete_deleted.py) | Remove deleted accounts from the chat, without cluttering the ban list.
+| 12 | [Unread](unread.py) | Mark a chat as unread and go back to the chatlist.
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
 2: This includes Supergroups, as Telegram handles them the same internally.</sup>
