@@ -1,5 +1,5 @@
 from pyrogram import Client
-from pyrogram.api import functions, types
+from pyrogram.api import functions
 
 app = Client("my_account")
 
