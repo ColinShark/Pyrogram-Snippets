@@ -11,7 +11,7 @@ with app:
     members = [
         x
         for x in app.iter_chat_members(chat)
-        if not x.status in ("administrator", "creator")
+        if x.status not in ("administrator", "creator")
     ]
     shuffle(members)
     for i in range(len(members) // 2):
