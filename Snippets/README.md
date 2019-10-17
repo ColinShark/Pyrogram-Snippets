@@ -2,6 +2,8 @@
 
 Here is a list of all Snippets for better overview and a clearer top-level Readme.
 
+All snippets assume you have a `config.ini` with [your api id and hash set up][API].
+
 | # | Name | Description |
 | --: | --- | --- |
 | 1. | [Delete Migrated](delete_migrated.py) | Delete all chats from your list that have been migrated to a supergroup.
@@ -16,6 +18,11 @@ Here is a list of all Snippets for better overview and a clearer top-level Readm
 | 10. | [Thanos](thanos.py) | You already know <small>(mutes half the chat for 24 hours)</small>
 | 11. | [Deleted Account](delete_deleted.py) | Remove deleted accounts from the chat, without cluttering the ban list.
 | 12. | [Unread](unread.py) | Mark a chat as unread and go back to the chatlist.
+| 13. | [FloodWatch](flood_watch.py) | Count the messages of people and warn them, if they send too many too quickly<sup>3</sup>
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
-2: This includes Supergroups, as Telegram handles them the same internally.</sup>
+2: This includes Supergroups, as Telegram handles them the same internally.<br>
+3: This has been [shared by !null in the Pyrogram Inn][FLOOD].</sup>
+
+[API]: https://docs.pyrogram.org/intro/setup
+[FLOOD]: https://t.me/PyrogramLounge/139704
