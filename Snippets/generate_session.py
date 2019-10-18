@@ -1,10 +1,7 @@
 from pyrogram import Client
 
-app = Client(":memory:")
-
-with app:
+with Client(":memory:") as app, open("session.txt", "w+") as s_file:
     session_string = app.export_session_string()
-    with open("session.txt", mode="w+", encoding="utf8") as s_file:
-        s_file.write(session_string)
+    s_file.write(session_string)
     print("Session String has been saved to session.txt. KEEP IT SAFE!")
     print(session_string)
