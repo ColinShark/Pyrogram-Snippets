@@ -20,6 +20,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | 12. | [Unread](unread.py) | Mark a chat as unread and go back to the chatlist.
 | 13. | [FloodWatch](flood_watch.py) | Count the messages of people and warn them, if they send too many too quickly<sup>3</sup>
 | 14. | [Session String](generate_session.py) | Create a session string and save it to a `session.txt`. Handy when you use Heroku for hosting.<sup>4</sup>
+| 15. | [Flip Text](flip_text.py) | Flip text upside down (`.flip My text` -> `Wʎ ʇǝxʇ`)
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
 2: This includes Supergroups, as Telegram handles them the same internally.<br>
