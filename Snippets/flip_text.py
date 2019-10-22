@@ -1,6 +1,6 @@
 from pyrogram import Client, Filters
 
-app = Client("PyroTesting", app_version="Pyro-Testing")
+app = Client("my_account")
 
 REPLACEMENT_MAP = {
     "a": "ɐ",
