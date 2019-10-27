@@ -1,8 +1,8 @@
 from pyrogram import Client
 from pyrogram.api import functions
 
-chat = "sag_bot_chat"
-app = Client("PyroTesting")
+chat = "pyrogramlounge"
+app = Client("my_account")
 
 with app:
     full_log = app.send(
