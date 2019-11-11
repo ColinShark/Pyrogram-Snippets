@@ -22,6 +22,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | 14. | [Session String](generate_session.py) | Create a session string and save it to a `session.txt`. Handy when you use Heroku for hosting.<sup>4</sup>
 | 15. | [Flip Text](flip_text.py) | Flip text upside down (`.flip My text` -> `Wʎ ʇǝxʇ`)<sup>5</sup>
 | 16. | [Recent Actions](recent_actions.py) | Get a full list of all recent actions of a specified group.<sup>6</sup>
+| 17. | [Profile Photos](profile_photos.py) | Download all profile folder from a supplied username and save them to a folder.<sup>7</sup>
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
 2: This includes Supergroups, as Telegram handles them the same internally.<br>
@@ -29,6 +30,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 4: Disclaimer: Keep that Session String SAFE. Anyone who has that key, can log in as you.<br>
 5: This has been [shared by James Santagato in the Pyrogram Lounge][FLIP].<br>
 6: Useful if you need the ID of people who have no messages left in your chat (eg join-message removed by bot).<br>
+7: This will download profile photos individually, which creates a LOT of requests to Telegram. You might find yourself flood-limited.<br>
 </sup>
 
 [API]: https://docs.pyrogram.org/intro/setup
