@@ -23,7 +23,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | 15. | [Flip Text](flip_text.py) | Flip text upside down (`.flip My text` -> `Wʎ ʇǝxʇ`)<sup>5</sup>
 | 16. | [Recent Actions](recent_actions.py) | Get a full list of all recent actions of a specified group.<sup>6</sup>
 | 17. | [Profile Photos](profile_photos.py) | Download all profile folder from a supplied username and save them to a folder.<sup>7</sup>
-| 18. | [Resole Invite](resolve_invite_link.py) | Resolve an Invite Link to get the ID of the admin who made it and the Chat ID.
+| 18. | [Resolve Invite](resolve_invite_link.py) | Resolve an Invite Link to get the ID of the admin who made it and the Chat ID.
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
 2: This includes Supergroups, as Telegram handles them the same internally.<br>
