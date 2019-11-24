@@ -10,7 +10,11 @@ app = Client("my_account")
 def resolve_invite(app: Client, message: Message):
     link = message.command[1].split("/")[-1]
     d = b64decode(link + "==")
-    message.edit_text("Admin: {}\nChat: -100{}\nHash: {}".format(*unpack(">iiq", d)))
+    message.edit_text(
+        "Invite Link: `{}`\nAdmin: `{}`\nChat: `-100{}`\nHash: `{}`".format(
+            link, *unpack(">iiq", d)
+        )
+    )
 
 
 app.run()
