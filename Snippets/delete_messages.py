@@ -16,6 +16,5 @@ with app:
 
     # start deleting messages
     for chat_id, messages in ALL_MESSAGES.items():
-        print(chat_id, messages)
         for i in range(1, len(messages), 200):
             app.delete_messages(chat_id, messages[i : i + 200], revoke=True)
