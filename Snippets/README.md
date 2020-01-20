@@ -25,6 +25,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | 17. | [Profile Photos](profile_photos.py) | Download all profile folder from a supplied username and save them to a folder.<sup>7</sup>
 | 18. | [Resolve Invite](resolve_invite_link.py) | Resolve an Invite Link to get the ID of the admin who made it and the Chat ID.
 | 19. | [Delete Messages](delete_messages.py) | Delete all your messages by iterating through all messages in all chats.<sup>8</sup>
+| 20. | [Auto Scroll](auto_scroll.py) | Send `.autoscroll` to auto-read all new messages in a chat in case you don't have Telegram in focus.
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
 2: This includes Supergroups, as Telegram handles them the same internally.<br>
