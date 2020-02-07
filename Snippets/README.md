@@ -26,6 +26,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | 18. | [Resolve Invite](resolve_invite_link.py) | Resolve an Invite Link to get the ID of the admin who made it and the Chat ID.
 | 19. | [Delete Messages](delete_messages.py) | Delete all your messages by iterating through all messages in all chats.<sup>8</sup>
 | 20. | [Auto Scroll](auto_scroll.py) | Send `.autoscroll` to auto-read all new messages in a chat in case you don't have Telegram in focus.
+| 21. | [Filter Toggle](filter_toggle.py) | Send `.com` to disable the `.hi` handler. Helpful if you want to completely disable a handler on command.<sup>9</sup>
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
 2: This includes Supergroups, as Telegram handles them the same internally.<br>
@@ -35,8 +36,10 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 6: Useful if you need the ID of people who have no messages left in your chat (eg join-message removed by bot).<br>
 7: This will download profile photos individually, which creates a LOT of requests to Telegram. You might find yourself flood-limited.<br>
 8: If you are not absolutely sure you want to delete all your messages, do NOT use this!<br>
+9: This has been [shared by Dan in the Inn][TOGGLE].<br>
 </sup>
 
 [API]: https://docs.pyrogram.org/intro/setup
 [FLOOD]: https://t.me/PyrogramLounge/139704
 [FLIP]: https://t.me/PyrogramLounge/142144
+[TOGGLE]: https://t.me/PyrogramChat/144618
