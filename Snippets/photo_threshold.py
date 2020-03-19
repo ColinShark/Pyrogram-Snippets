@@ -1,3 +1,6 @@
+# Get a Chat History and check how many images
+# in that chat are above or below a certain threshold.
+
 from pyrogram import Client
 
 app = Client("my_account")

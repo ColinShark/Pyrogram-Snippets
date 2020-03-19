@@ -1,3 +1,6 @@
+# Iterates through a chat's history and counts how many each words was said.
+# This counts everything that gets seperated by Pythons ".split()".
+
 from pyrogram import Client
 
 

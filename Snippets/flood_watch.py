@@ -1,3 +1,6 @@
+# Watch how many messages people send and warn them about sending too many messages.
+# If you have admin permissions they will be muted.
+
 import time
 
 from pyrogram import Client, Filters, Message

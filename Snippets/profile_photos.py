@@ -1,3 +1,6 @@
+# Download all profile photos of a specified user.
+# Just in case you want them, or something.
+
 from pyrogram import Client
 
 app = Client("my_account")

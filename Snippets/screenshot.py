@@ -1,3 +1,5 @@
+# Send a notification in a private chat (not secret) to annoy or troll your friends.
+
 import time
 
 from pyrogram import Client, Filters

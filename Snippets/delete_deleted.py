@@ -1,3 +1,7 @@
+# This script will go through the memberlist of the chat you specified below and ban
+# all deleted accounts ("Deleted Account") for 60 seconds as to remove them and not
+# clutter the list of banned users.
+
 from time import time
 
 from pyrogram import Client

@@ -1,3 +1,6 @@
+# Flip text after the command upside down with the help of a
+# pre-determined character sheet.
+
 from pyrogram import Client, Filters
 
 app = Client("my_account")

@@ -1,3 +1,6 @@
+# Get a list of all non-admin members of a specified chat and shuffle this list.
+# Then mute half of that list for 24 hours.
+
 import time
 from random import shuffle
 

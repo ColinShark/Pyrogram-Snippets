@@ -1,3 +1,6 @@
+# Create a new Pyrogram Session and print the Session String.
+# Useful to host a Pyrogram (User)Bot on Heroku.
+
 from pyrogram import Client
 
 with Client(":memory:") as app, open("session.txt", "w+") as s_file:

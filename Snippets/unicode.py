@@ -1,3 +1,6 @@
+# Compare all names of a chat against an ASCII-encoded
+# version and print each difference.
+
 from pyrogram import Client
 
 chat = "pyrogramchat"

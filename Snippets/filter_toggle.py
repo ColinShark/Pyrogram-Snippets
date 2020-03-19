@@ -1,3 +1,6 @@
+# Use .com to toggle a different message handler on or off.
+# Handy if you want to control the usage of a specific command.
+
 from pyrogram import Client, Filters
 
 app = Client("my_account")

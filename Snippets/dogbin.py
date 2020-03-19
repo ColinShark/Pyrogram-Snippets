@@ -1,3 +1,5 @@
+# Paste a replied-to message to https://del.dog.
+
 import requests
 from requests import HTTPError
 

@@ -1,3 +1,6 @@
+# Get the count of Members in a chat and check how many of those have sent a message
+# in the last x messages. Change the limit variable to check more messages.
+
 from pyrogram import Client
 
 app = Client("my_account")

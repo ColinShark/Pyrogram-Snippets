@@ -1,3 +1,6 @@
+# This script saves all your current chats and automatically blocks and reports ALL
+# incoming private messages. Useful if you don't want any new chats whatsoever.
+
 from pyrogram import Client, Filters
 from pyrogram.api import functions
 

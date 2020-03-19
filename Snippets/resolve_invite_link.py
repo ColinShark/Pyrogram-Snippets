@@ -1,3 +1,7 @@
+# Resolve an Invite Link to a Channel or Supergroup to check which UserID has generated
+# the link and what Chat it leads to. These IDs still have to be encountered naturally
+# to interact with them directly.
+
 from base64 import urlsafe_b64decode
 from struct import unpack
 

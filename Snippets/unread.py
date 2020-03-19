@@ -1,3 +1,6 @@
+# This marks the current chat as unread and "closes" the Chat,
+# putting you back to the chatlist.
+
 from pyrogram import Client, Filters
 from pyrogram.api import functions
 

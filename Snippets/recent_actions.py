@@ -1,3 +1,6 @@
+# Get the full "Recent Actions" Admin log from the specified chat.
+# In case you deleted a message and can't ".eval" the UserID of a spammer anymore.
+
 from pyrogram import Client
 from pyrogram.api import functions
 

@@ -1,3 +1,6 @@
+# Send .autoscroll in any chat to automatically read all sent messages until you call
+# .autoscroll again. This is useful if you have Telegram open on another screen.
+
 from pyrogram import Client, Filters, Message
 
 app = Client("my_account")

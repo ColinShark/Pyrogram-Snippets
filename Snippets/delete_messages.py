@@ -1,3 +1,8 @@
+# This script will iterate through all of the chats you're in (private, too) and
+# delete every single message of yours*. This can not be undone, so make sure you
+# actually want to purge everything you've ever sent. This includes "Saved Messages"
+# *(except "x joined", this needs administrative permissions)
+
 from collections import defaultdict
 
 from pyrogram import Client
