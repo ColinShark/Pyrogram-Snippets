@@ -6,20 +6,23 @@ from requests import HTTPError
 from pyrogram import Client, Filters
 
 app = Client("my_account")
-DOGBIN = "https://del.dog/"
+URL = "nekobin.com"
+post = "https://nekobin.com/api/documents"
 
 
-@app.on_message(Filters.command("paste", prefix=".") & Filters.reply)
+@app.on_message(Filters.command("paste", prefixes=".") & Filters.reply)
 def dogbin(app, msg):
     msg.edit_text("`pasting...`")
     text = msg.reply_to_message.text
     try:
-        paste = requests.post(f"{DOGBIN}/documents", data=text)
+        paste = requests.post(post, data={"content": text})
         paste.raise_for_status()
     except (HTTPError, ConnectionError):
         msg.edit_text("`Pasting failed`")
     else:
-        msg.edit_text(f"{DOGBIN}/{paste.json()['key']}")
+        msg.edit_text(
+            f"{URL}/{paste.json()['result']['key']}", disable_web_page_preview=True
+        )
 
 
 app.run()
