@@ -10,10 +10,10 @@ URL = "nekobin.com"
 post = "https://nekobin.com/api/documents"
 
 
-@app.on_message(Filters.command("paste", prefixes=".") & Filters.reply)
+@app.on_message(Filters.command("paste", prefixes="."))
 def dogbin(app, msg):
     msg.edit_text("`pasting...`")
-    text = msg.reply_to_message.text
+    text = msg.reply_to_message.text if msg.reply_to_message else msg.text[7:]
     try:
         paste = requests.post(post, data={"content": text})
         paste.raise_for_status()
