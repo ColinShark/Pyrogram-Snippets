@@ -8,7 +8,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | --: | --- | --- |
 | 1. | [Delete Migrated](delete_migrated.py) | Delete all chats from your list that have been migrated to a supergroup.
 | 2. | [Photo Size Threshold](photo_threshold.py) | Count the amount of photos above or below a given size.
-| 3. | [Dogbin](dogbin.py) | Paste a message to [del.dog](https://del.dog) by replying `.paste` to it.
+| 3. | [Nekobin](nekobin.py) | Paste a message to [Nekobin](https://nekobin.com) by replying `.neko` to it.
 | 4. | [Block New PMs](block_new_pm.py) | Block new private messages from coming through. Instantly block and report the offender.
 | 5. | [Participant%](participant_percent.py) | Get the % of people who have participated in the last 5000 messages.<sup>1</sup>
 | 6. | [Word Count](word_count.py) | Get a list of the 50 most used words in the chat.<sup>1</sup>

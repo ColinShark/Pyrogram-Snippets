@@ -1,3 +1,4 @@
 *.ini
 *.session
 *.txt
+venv/
