@@ -2,7 +2,7 @@
 # This could come in handy if you need to re-join these or get an invite link for.
 
 from pyrogram import Client
-from pyrogram.api import functions
+from pyrogram.raw import functions
 
 app = Client("my_account", takeout=True)
 

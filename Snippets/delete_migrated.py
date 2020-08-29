@@ -1,7 +1,7 @@
 # Delete the history of all chats that have already been upgraded to a Supergroup.
 
 from pyrogram import Client
-from pyrogram.api import functions
+from pyrogram.raw import functions
 
 app = Client("my_account")
 

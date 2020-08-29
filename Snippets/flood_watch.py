@@ -3,7 +3,8 @@
 
 import time
 
-from pyrogram import Client, Filters, Message
+from pyrogram import Client, filters
+from pyrogram.types import Message
 
 app = Client("my_account")
 
@@ -20,8 +21,8 @@ def get_chat_admins(app: Client, message: Message) -> list:
     ]
 
 
-@app.on_message(Filters.group)
-def flood_watcher(app: Client, message: Message):
+@app.on_message(filters.group)
+def flood_watcher(app, message: Message):
     c_id = message.chat.id
     u_id = message.from_user.id
     try:

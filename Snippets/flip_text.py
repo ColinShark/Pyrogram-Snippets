@@ -1,7 +1,7 @@
 # Flip text after the command upside down with the help of a
 # pre-determined character sheet.
 
-from pyrogram import Client, Filters
+from pyrogram import Client, filters
 
 app = Client("my_account")
 
@@ -87,8 +87,8 @@ REPLACEMENT_MAP = {
 }
 
 
-@app.on_message(Filters.command("flip", prefixes=".") & Filters.me)
-def flip(app, msg):
+@app.on_message(filters.command("flip", prefixes=".") & filters.me)
+def flip(_, msg):
     text = msg.text.split(".flip", maxsplit=1)[1]
     final_str = ""
     for char in text:

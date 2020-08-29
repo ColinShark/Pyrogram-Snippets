@@ -3,14 +3,15 @@
 import requests
 from requests import HTTPError
 
-from pyrogram import Client, Filters
+from pyrogram import Client
+from pyrogram.types import filters
 
 app = Client("my_account")
 URL = "nekobin.com"
 post = "https://nekobin.com/api/documents"
 
 
-@app.on_message(Filters.command("neko", prefixes="."))
+@app.on_message(filters.command("neko", prefixes="."))
 def neko(app, msg):
     msg.edit_text("`pasting...`")
     text = msg.reply_to_message.text if msg.reply_to_message else msg.text[7:]
