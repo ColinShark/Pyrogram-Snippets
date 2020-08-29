@@ -1,7 +1,7 @@
 # Use .com to toggle a different message handler on or off.
 # Handy if you want to control the usage of a specific command.
 
-from pyrogram import Client, Filters
+from pyrogram import Client, filters
 
 app = Client("my_account")
 
@@ -12,20 +12,20 @@ def commute(self):
     return self.flag
 
 
-f = Filters.create(lambda self, _: self.flag, flag=True, commute=commute)
+f = filters.create(lambda self, _: self.flag, flag=True, commute=commute)
 
 
-@app.on_message(f & Filters.command("hi", "."))
-def hi(app, message):
+@app.on_message(f & filters.command("hi", "."))
+def hi(_, message):
     """Reply with "hi" in case toggle returns `True`"""
     message.reply_text("hi")
 
 
-@app.on_message(Filters.command("com", "."))
-def toggle(app, message):
+@app.on_message(filters.command("com", "."))
+def toggle(_, message):
     """Switch between `True` and `False`"""
     c = f.commute()
-    m.reply_text("enabled" if c else "disabled")
+    message.reply_text("enabled" if c else "disabled")
 
 
 app.run()

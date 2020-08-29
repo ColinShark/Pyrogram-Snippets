@@ -2,7 +2,7 @@
 # all deleted accounts ("Deleted Account") for 60 seconds as to remove them and not
 # clutter the list of banned users.
 
-from time import time
+import time
 
 from pyrogram import Client
 from pyrogram.errors import FloodWait

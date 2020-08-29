@@ -5,13 +5,14 @@
 from base64 import urlsafe_b64decode
 from struct import unpack
 
-from pyrogram import Client, Filters, Message
+from pyrogram import Client, filters
+from pyrogram.types import Message
 
 app = Client("my_account")
 
 
-@app.on_message(Filters.command("invite", ".") & Filters.me)
-def resolve_invite(app: Client, message: Message):
+@app.on_message(filters.command("invite", ".") & filters.me)
+def resolve_invite(_, message: Message):
     link = message.command[1].split("/")[-1]
     d = urlsafe_b64decode(link + "==")
     message.edit_text(

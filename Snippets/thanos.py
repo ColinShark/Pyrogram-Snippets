@@ -4,7 +4,8 @@
 import time
 from random import shuffle
 
-from pyrogram import ChatPermissions, Client
+from pyrogram import Client
+from pyrogram.types import ChatPermissions
 from pyrogram.errors import FloodWait
 
 chat = "pyrogramlounge"

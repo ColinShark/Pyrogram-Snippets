@@ -1,7 +1,7 @@
 # This snippets gives you a count of all stickers you have saved across all your packs
 
 from pyrogram import Client
-from pyrogram.api import functions
+from pyrogram.raw import functions
 
 app = Client("my_account")
 

@@ -2,7 +2,7 @@
 # In case you deleted a message and can't ".eval" the UserID of a spammer anymore.
 
 from pyrogram import Client
-from pyrogram.api import functions
+from pyrogram.raw import functions
 
 chat = "pyrogramlounge"
 app = Client("my_account")

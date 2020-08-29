@@ -5,13 +5,14 @@
 import os
 from datetime import datetime
 
-from pyrogram import Client, Filters, Message
+from pyrogram import Client, filters
+from pyrogram.types import Message
 
 app = Client("my_account")
 
 
-@app.on_message(Filters.command("joindate") & Filters.me)
-def join_date(app: app, message: Message):
+@app.on_message(filters.command("joindate") & filters.me)
+def join_date(app, message: Message):
     members = []
     for m in app.iter_chat_members(message.chat.id):
         members.append(
