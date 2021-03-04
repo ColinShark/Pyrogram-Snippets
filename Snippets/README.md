@@ -1,5 +1,11 @@
 # Snippets
 
+### Broken Snippet
+
+Due to Telegrams Update to Invite Links the [Resolve Invite](resolve_invite_link.py) Snippet is currently broken.
+I have no idea when a fix will be coming. We first need to know how these new invite links are built to be able to unpack them.
+Until then, you'll just get an error message when you run that snippet: `unpack requires a buffer of 16 bytes`.
+
 Here is a list of all Snippets for better overview and a clearer top-level Readme.
 
 All snippets assume you have a `config.ini` with [your api id and hash set up][API].
@@ -23,7 +29,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | 15. | [Flip Text](flip_text.py) | Flip text upside down (`.flip My text` -> `Wʎ ʇǝxʇ`)<sup>5</sup>
 | 16. | [Recent Actions](recent_actions.py) | Get a full list of all recent actions of a specified group.<sup>6</sup>
 | 17. | [Profile Photos](profile_photos.py) | Download all profile folder from a supplied username and save them to a folder.<sup>7</sup>
-| 18. | [Resolve Invite](resolve_invite_link.py) | Resolve an Invite Link to get the ID of the admin who made it and the Chat ID.
+| 18. | [Resolve Invite](resolve_invite_link.py) | ~~Resolve an Invite Link to get the ID of the admin who made it and the Chat ID.~~
 | 19. | [Delete Messages](delete_messages.py) | Delete all your messages by iterating through all messages in all chats.<sup>8</sup>
 | 20. | [Auto Scroll](auto_scroll.py) | Send `.autoscroll` to auto-read all new messages in a chat in case you don't have Telegram in focus.
 | 21. | [Filter Toggle](filter_toggle.py) | Send `.com` to disable the `.hi` handler. Helpful if you want to completely disable a handler on command.<sup>9</sup>
