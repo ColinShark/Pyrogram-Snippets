@@ -35,6 +35,7 @@ All snippets assume you have a `config.ini` with [your api id and hash set up][A
 | 21. | [Filter Toggle](filter_toggle.py) | Send `.com` to disable the `.hi` handler. Helpful if you want to completely disable a handler on command.<sup>9</sup>
 | 22. | [Screenshot](screenshot.py) | Send a Screenshot Notification. Works only in Private Chats.
 | 23. | [Joined Date](join_date.py) | Get a list of all members sorted by date joined.
+| 24. | [Get Authorizations](authorizations.py) | Get a list of your active sessions, sorted by their creation date.
 
 <sup>1: Iterating through a lot of messages might take some time.<br>
 2: This includes Supergroups, as Telegram handles them the same internally.<br>
