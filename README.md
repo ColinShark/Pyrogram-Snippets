@@ -1,3 +1,6 @@
+This has been archived, as I don't keep up with Pyrogram development, nor am I interested in keeping these Snippets working indefinitely.
+If something doesn't work, feel free to [fork this repository](https://github.com/ColinShark/Pyrogram-Snippets/fork) and work on bugs yourself.
+
 # Pyrogram Snippets
 
 This is an assortment of snippets, ready to use with [Pyrogram]
@@ -11,8 +14,6 @@ Every snippet assumes you have set up a [`config.ini`][SETUP] and are already lo
 "my_account" (and thus have a `my_account.session` file present).
 
 All scripts should work as is.
-If issues arise, do not hestitate to open an [Issue] or a [Pull Request][PR] if you want to add something.
-Otherwise I'm available at [Pyrogram's Lounge][Lounge] (Ask for "Colin").
 
 ## Snippets
 
